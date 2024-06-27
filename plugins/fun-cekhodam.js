@@ -1,5 +1,6 @@
 const defaultLang = 'id';
 const gtts = require('node-gtts')
+const fs = require('fs')
 
 let handler = async(m, { args, text, command }) => {
 let kodam;
@@ -196,13 +197,13 @@ let kodam;
 
 
     const randomKhodam = khodam[Math.floor(Math.random() * khodam.length)];
-    let text = `Khodam ${kodam} adalah ${randomKhodam}`;
-function tts(text, lang = 'id') {
+    let teks = `Khodam ${kodam} adalah ${randomKhodam}`;
+function tts(teks, lang = 'id') {
 return new Promise((resolve, reject) => {
 try {
 let tts = gtts(lang)
 let filePath =  (1 * new Date) + '.mp3'
-tts.save(filePath, text, () => {
+tts.save(filePath, teks, () => {
 resolve(fs.readFileSync(filePath))
 fs.unlinkSync(filePath)
 })
@@ -211,12 +212,12 @@ fs.unlinkSync(filePath)
 }    
     let res;
     try {
-        res = await tts(text, lang);
+        res = await tts(teks, lang);
     } catch (e) {
         m.reply(e + '');
-        res = await tts(text, defaultLang);
+        res = await tts(teks, defaultLang);
     } finally {
-        reply(text)
+        m.reply(teks)
         if (res) {
 await conn.sendMessage(m.chat, { audio: res, ptt: true, mimetype: "audio/mpeg", fileName: "vn.mp3", waveform: [100, 0, 100, 0, 100, 0, 100] }, { quoted: m });
         }
