@@ -77,7 +77,7 @@ node index.js
 
 ## Features
 
-| Features | Avaible |
+| Features | Available |
 | -------- | --------- |
 | Jadi Bot         | :white_check_mark: |
 | DDoS | :white_check_mark: |
