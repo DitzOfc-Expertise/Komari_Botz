@@ -227,6 +227,7 @@ If you find a bug/error in the script, you can contact me directly via:
 - Ddos Features
 - Check Khodam Features
 - HDVid Features
+- Fixed Setcmd And Others Features
 
 Function Send Button Url & Function Button copy is not ready yet
 ```
