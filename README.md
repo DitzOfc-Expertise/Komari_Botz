@@ -221,6 +221,11 @@ If you find a bug/error in the script, you can contact me directly via:
 
 [On WhatsApp](https://wa.me/6285717062467)
 
+## Donate
+So that creators are more enthusiastic about updating this script, you can donate via the link below
+
+[Saweria](https://saweria.co/DitzOfc)
+
 ## Changelog
 ***
 ```sh
