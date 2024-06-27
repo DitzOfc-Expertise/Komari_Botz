@@ -38,8 +38,8 @@ This script is of the Plugins CJS type, and the programming language used is:
 `you can choose Indonesian or English`
 <details close="close">
 <summary><i><b>Indonesian</b></i></summary>
-
 ***
+
 ### 1. Install Aplikasi [Termux](https://f-droid.org/repo/com.termux_118.apk)
 > Setelah Install Aplikasi Termux, Silahkan Salin Teks Dibawah, Setelah Disalin Tempel Di Aplikasi Termux.
 ```
@@ -80,6 +80,7 @@ node index.js
 | Features | Avaible |
 | -------- | --------- |
 | Jadi Bot         | :white_check_mark: |
+| DDoS | :white_check_mark: |
 | RPG                 | :white_check_mark: |
 | Multi Prefix | :white_check_mark: |
 | Support Run Termux | :white_check_mark: |
@@ -91,6 +92,11 @@ node index.js
 | Anime Features                 | :white_check_mark: |
 | Everyone Tags                 | :white_check_mark: | 
 | Atlantic                 | :red_circle: | 
+
+### NOTE!
+***
+This bot has a DDoS feature. If used incorrectly, the Creator will not be responsible.
+***
 
 ### Tutorial on How to Use the Send Button Function
 <details close="close">
@@ -215,6 +221,16 @@ If you find a bug/error in the script, you can contact me directly via:
 
 [On WhatsApp](https://wa.me/6285717062467)
 
+## Changelog
+***
+```sh
+- Ddos Features
+- Check Khodam Features
+- HDVid Features
+
+Function Send Button Url & Function Button copy is not ready yet
+```
+***
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [Javascript.js]: https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square
